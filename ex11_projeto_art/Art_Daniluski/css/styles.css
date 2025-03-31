@@ -31,6 +31,31 @@ a,i{
     color: #FFF;
 }
 
+/* style.css */
+
+#quadroDetalhes-1,
+#quadroDetalhes-2,
+#quadroDetalhes-3,
+#quadroDetalhes-4,
+#quadroDetalhes-5,
+#quadroDetalhes-6 {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 10px;
+    display: none; /* O quadro começa escondido */
+  }
+  
+  /* Classe que será adicionada para mostrar o quadro */
+  #quadroDetalhes.mostrar {
+    display: block;
+  }
+  
+  .escondido {
+    display: none;
+  }
+  
+
 /*HEADER*/
 
 #header{

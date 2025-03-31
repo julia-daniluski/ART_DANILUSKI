@@ -1,38 +1,35 @@
-// Alterar cor do cabeçalho ao rolar a página
-window.addEventListener('scroll', function() {
-    let header = document.getElementById('header');
-    if (window.scrollY > 50) {
-        header.style.backgroundColor = '#333'; // Alterando para cor escura
-        header.style.color = '#fff';
-    } else {
-        header.style.backgroundColor = 'transparent';
-        header.style.color = '#000';
-    }
+// Função para alternar a visibilidade dos detalhes
+function toggleDetalhes(buttonId, quadroId) {
+  // Obtém o botão e o quadro de detalhes
+  var button = document.getElementById(buttonId);
+  var quadro = document.getElementById(quadroId);
+
+  // Alterna a visibilidade do quadro de detalhes
+  if (quadro.style.display === "none" || quadro.style.display === "") {
+    quadro.style.display = "block"; // Torna o quadro visível
+    button.textContent = "Ocultar Detalhes"; // Altera o texto do botão
+  } else {
+    quadro.style.display = "none"; // Torna o quadro invisível
+    button.textContent = "Detalhes"; // Restaura o texto do botão
+  }
+}
+
+// Adiciona os eventos de clique para cada botão
+document.getElementById('btnDetalhes-1').addEventListener('click', function() {
+  toggleDetalhes('btnDetalhes-1', 'quadroDetalhes-1');
 });
-
-// Exibir mais detalhes ao clicar no botão "Detalhes"
-document.querySelectorAll('.btn').forEach(button => {
-    button.addEventListener('click', function(event) {
-        event.preventDefault(); // Impede o link de navegar
-        let description = this.previousElementSibling; // A descrição do item
-        if (description.style.display === 'none' || description.style.display === '') {
-            description.style.display = 'block'; // Exibir descrição
-            this.textContent = 'Menos detalhes'; // Alterar texto do botão
-        } else {
-            description.style.display = 'none'; // Esconder descrição
-            this.textContent = 'Detalhes'; // Reverter texto do botão
-        }
-    });
+document.getElementById('btnDetalhes-2').addEventListener('click', function() {
+  toggleDetalhes('btnDetalhes-2', 'quadroDetalhes-2');
 });
-
-// Exemplo de manipulação de imagens para mudar o fundo das imagens pequenas
-document.querySelectorAll('.small-image-container').forEach(img => {
-    img.addEventListener('mouseover', function() {
-        this.style.transform = 'scale(1.05)';
-        this.style.transition = 'transform 0.3s ease';
-    });
-
-    img.addEventListener('mouseout', function() {
-        this.style.transform = 'scale(1)';
-    });
+document.getElementById('btnDetalhes-3').addEventListener('click', function() {
+  toggleDetalhes('btnDetalhes-3', 'quadroDetalhes-3');
+});
+document.getElementById('btnDetalhes-4').addEventListener('click', function() {
+  toggleDetalhes('btnDetalhes-4', 'quadroDetalhes-4');
+});
+document.getElementById('btnDetalhes-5').addEventListener('click', function() {
+  toggleDetalhes('btnDetalhes-5', 'quadroDetalhes-5');
+});
+document.getElementById('btnDetalhes-6').addEventListener('click', function() {
+  toggleDetalhes('btnDetalhes-6', 'quadroDetalhes-6');
 });
