@@ -1,7 +1,11 @@
-/* ESTILOS GERAIS */
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
 
-*{
+
+/* ESTILOS GERAIS */
+* {
     color: #25282e;
+    font-family: 'Marcellus', cursive;
+    font-weight: 400;  /* Default to regular weight */
 }
 
 a,i{
@@ -84,13 +88,13 @@ a,i{
     margin: 10px auto;
 }
 
-#navbar a{
+#navbar a {
     width: 80px;
-    color: #444;
+    color: red;
 }
 
-#navbar a:hover{
-    color: #c1b696;
+#navbar a:hover {
+    color: rgb(165, 0, 0);
 }
 
 /*MAIN IMAGE*/
