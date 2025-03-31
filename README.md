@@ -1,4 +1,4 @@
-Nesse repositório, tivemos o exercício de criar um site focado em framework e acessibilidade, colocando funções de js (javascript) para o melhor desempenho. Junto com as (nome das garotas), decidimos fazer juntas, cada uma com um personagem de "Alvin e os esquilos":
+Nesse repositório, tivemos o exercício de criar um site focado em framework e acessibilidade, colocando funções de js (javascript) para o melhor desempenho. Junto com as [@Zanirato](https://github.com/Zanirato), [@laisboscolo](https://github.com/laisboscolo), [@RayanneP](https://github.com/RayanneP) e [@danidani1907](https://github.com/danidani1907), decidimos fazer juntas, cada uma com um personagem de "Alvin e os esquilos":
 
 
 https://github.com/user-attachments/assets/c794797f-b5ab-426b-aaa7-21c9c208f16d
