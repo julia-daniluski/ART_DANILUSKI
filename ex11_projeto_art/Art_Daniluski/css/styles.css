@@ -71,7 +71,7 @@ a,i{
 /*MAIN IMAGE*/
 .main-image{
     height: 400px;
-    background-image: url('../img/g_1.jpg');
+    background-image: url('../img/g_1.gif');
     margin-bottom: 30px;
     position: relative;
 }
@@ -87,23 +87,27 @@ a,i{
 /*Gallery*/
 
 #img-2 {
-    background-image: url('..//img/g_2.jpg');
+    background-image: url('..//img/g_7.png');
 }
 
 #img-3 {
-    background-image: url('..//img/g_3.jpg');
+    background-image: url('..//img/g_2.png');
 }
 
 #img-4 {
-    background-image: url('..//img/g_4.jpg');
+    background-image: url('..//img/g_3.png');
 }
 
 #img-5 {
-    background-image: url('..//img/g_5.jpg');
+    background-image: url('..//img/g_6.jpg');
 }
 
 #img-6 {
-    background-image: url('..//img/g_6.jpg');
+    background-image: url('..//img/g_7.jpg');
+}
+
+#img-7 {
+    background-image: url('..//img/g_5.png');
 }
 
 #gallery-container h1{
