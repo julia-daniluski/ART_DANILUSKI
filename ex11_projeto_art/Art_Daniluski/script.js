@@ -15,21 +15,27 @@ function toggleDetalhes(buttonId, quadroId) {
 }
 
 // Adiciona os eventos de clique para cada botão
-document.getElementById('btnDetalhes-1').addEventListener('click', function() {
+document.getElementById('btnDetalhes-1').addEventListener('click', function(event) {
+  event.preventDefault(); // Previne o comportamento de scroll
   toggleDetalhes('btnDetalhes-1', 'quadroDetalhes-1');
 });
-document.getElementById('btnDetalhes-2').addEventListener('click', function() {
+document.getElementById('btnDetalhes-2').addEventListener('click', function(event) {
+  event.preventDefault(); // Previne o comportamento de scroll
   toggleDetalhes('btnDetalhes-2', 'quadroDetalhes-2');
 });
-document.getElementById('btnDetalhes-3').addEventListener('click', function() {
+document.getElementById('btnDetalhes-3').addEventListener('click', function(event) {
+  event.preventDefault(); // Previne o comportamento de scroll
   toggleDetalhes('btnDetalhes-3', 'quadroDetalhes-3');
 });
-document.getElementById('btnDetalhes-4').addEventListener('click', function() {
+document.getElementById('btnDetalhes-4').addEventListener('click', function(event) {
+  event.preventDefault(); // Previne o comportamento de scroll
   toggleDetalhes('btnDetalhes-4', 'quadroDetalhes-4');
 });
-document.getElementById('btnDetalhes-5').addEventListener('click', function() {
+document.getElementById('btnDetalhes-5').addEventListener('click', function(event) {
+  event.preventDefault(); // Previne o comportamento de scroll
   toggleDetalhes('btnDetalhes-5', 'quadroDetalhes-5');
 });
-document.getElementById('btnDetalhes-6').addEventListener('click', function() {
+document.getElementById('btnDetalhes-6').addEventListener('click', function(event) {
+  event.preventDefault(); // Previne o comportamento de scroll
   toggleDetalhes('btnDetalhes-6', 'quadroDetalhes-6');
 });
